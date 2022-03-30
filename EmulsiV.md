@@ -1,3 +1,3 @@
 # EmulsiV
 
-![12](https://user-images.githubusercontent.com/98943979/160833783-3bdd3299-22a5-4416-baa5-56280ef2ac45.png)
+![image](https://user-images.githubusercontent.com/98943979/160836535-5a9ba255-6b19-4cd6-ae05-db945d2cbaf6.png)
