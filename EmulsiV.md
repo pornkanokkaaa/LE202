@@ -15,7 +15,7 @@
 - คือการเอาแค่20 bit ของ Data byte ของคำสั่งใส่ลงไปใน x2 ( 1 word คือ 32 bit )
 ![18](https://user-images.githubusercontent.com/98943979/160888721-ff6a93e8-b971-4157-ac27-407d9380e090.png)
 - นำค่า x1 มาแปลงเป็น Data byte แล้วใส่ใน x3 แต่ใส่แค่ 1 byte
-![19](https://user-images.githubusercontent.com/98943979/160960795-a98ffbfa-0eee-44c5-b9da-69d4e9ec2461.png)
+![19](https://user-images.githubusercontent.com/98943979/160961339-a5e734f7-a13d-4328-8112-d1d25ba0d123.png)
 
 - เมื่อ x3 = x0  จะบวก 16 (ฐาน10)หรือ 10 (ฐาน16) 
 ![20](https://user-images.githubusercontent.com/98943979/160958910-6d212790-f436-4ddb-90b9-29e370dead0c.png)
