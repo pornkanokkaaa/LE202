@@ -15,7 +15,8 @@
 - คือการเอาแค่20 bit ของ Data byte ของคำสั่งใส่ลงไปใน x2 ( 1 word คือ 32 bit )
 ![18](https://user-images.githubusercontent.com/98943979/160888721-ff6a93e8-b971-4157-ac27-407d9380e090.png)
 - นำค่า x1 มาแปลงเป็น Data byte แล้วใส่ใน x3 แต่ใส่แค่ 1 byte
-![19](https://user-images.githubusercontent.com/98943979/160958477-a7573989-663e-4add-b717-4cf3dd3c8814.png)
+![19](https://user-images.githubusercontent.com/98943979/160960795-a98ffbfa-0eee-44c5-b9da-69d4e9ec2461.png)
+
 - เมื่อ x3 = x0  จะบวก 16 (ฐาน10)หรือ 10 (ฐาน16) 
 ![20](https://user-images.githubusercontent.com/98943979/160958910-6d212790-f436-4ddb-90b9-29e370dead0c.png)
 - เมื่อ x3 ไม่เท่ากับ x0 จะ run คำสั่งต่อไป
@@ -26,5 +27,6 @@
 ![23](https://user-images.githubusercontent.com/98943979/160959694-c2e7f448-9070-48e3-93ea-e550ce99f2cf.jpeg)
 - jal เป็นคำสั่ง jump คำสั่งนี้คือการ -16(ฐาน10)หรือ 10 (ฐาน16) จากคำสั่งที่แล้ว x1+1 และคำสั่งนี้เป็นการ black ไป -16(ฐาน10)หรือ 10 (ฐาน16) เมื่อทำสั่งสั่งวนลูปมาใหม่จะทำให้ output แสดงผลค่าถัดไป
 เรื่อยๆ เนื่องจากเรานำ x1+1 ในคำสั่งก่อนหน้า
-![24](https://user-images.githubusercontent.com/98943979/160960504-4f4850fa-16ed-466d-88b7-9f35495a0867.jpeg)
+
+![24](https://user-images.githubusercontent.com/98943979/160961011-6c35400b-7365-4040-aef5-a07f7559a049.jpeg)
 - เมื่อทำไปเรื่อยๆจนเป็น 00 จะไม่มี output แสดงผล เป็นการจบการทำงาน จะไม่มีoutput แสดงผลเพิ่ม
